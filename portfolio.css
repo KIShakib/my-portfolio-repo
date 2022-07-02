@@ -225,3 +225,10 @@ h3{
     padding: 10px;
     margin: 10px;
 }
+small{
+    color: #F92C85;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin: 20px 0px 0px;
+}
