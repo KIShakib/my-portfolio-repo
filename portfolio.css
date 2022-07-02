@@ -1,0 +1,227 @@
+body{
+    background-color:#FDF5DF;
+}
+span{
+    color: rgb(220, 89, 66);
+    text-shadow: 3px 3px 3px #18050d;
+}
+ul{
+    background: #5EBEC4;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    display: inline-block
+}
+.navi:hover .sub{
+    display: block;
+}
+.sub{
+    margin-left: 5px;
+    display: none;
+    position: absolute;
+}
+.sub a{
+    display: block;
+    color: #F92C85;
+    min-width: 50px;
+}
+.home{
+    margin-top: 5px;
+    background-color: #F92C85;
+    color: #FDF5DF;
+    border: 2px  solid #FDF5DF;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.home:hover{
+    color: #F92C85;
+    background-color: #FDF5DF;
+    border: 2px solid #F92C85;
+}
+.bg{
+    background-color: #FDF5DF;
+    border: 2px solid #F92C85;
+    box-shadow: 0px 2px 4px 0px #5EBEC4;
+}
+.bg:hover{
+    background-color: #F92C85;
+    color: #FDF5DF;
+    border: 2px solid #FDF5DF;
+}
+
+h1{
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 15px;
+    margin-top: 70px;
+    background-color:#5EBEC4;
+    color: #F92C85;
+    border-radius:50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px 0 #FDF5DF,0 1px #FDF5DF, 1px 0 #FDF5DF, 0 -1px #FDF5DF;
+    filter: blur(1px);
+    filter: brightness(150%);
+}
+.div{
+    width: 720px;
+    height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #5EBEC4;
+    border: 5px solid #F92C85;
+    border-radius: 50px;
+    background-image: url(tiltok_shirt.png);
+    position: sticky;
+}
+.aaa{
+    color: #F92C85;
+    text-decoration: none;  
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid #F92C85;
+    background-color: #5EBEC4;
+    font-family: 'Bebas Neue', cursive;
+}
+.aaa:hover{
+    color: #5EBEC4;
+    background-color: #F92C85;
+    border: 3px solid #5EBEC4;
+}
+h6{
+    text-align: right;
+}
+.social{
+    position: sticky;
+    top: 0px;
+}
+.facebook{
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.instagram{
+    padding-right: 2.3px;
+    padding-left: 2.3px;
+}
+.twitter{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+p{
+    width: 700px;
+    text-align: justify;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F92C85;
+    text-shadow: 1px 1.5px #5EBEC4;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+table, td, tr{
+    border: 4px solid #5EBEC4;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #F92C85;
+}
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    transform: skew(-15deg);
+}
+h2{
+    background:#5EBEC4;
+    color: #F92C85;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    border: 4px #F92C85;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+h3{
+    display: inline;
+    color: #F92C85;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    background:#5EBEC4;
+    margin-left: 400px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.padding{
+    padding-right: 55px;
+    padding-left: 55px;
+}
+.design{
+    padding-left: 8px;
+    padding-right: 12px;
+}
+.css{
+    padding-right: 68px;
+}
+.opacity{
+    width: 400px;
+    height: 655px;
+    background: url(tiltok_shirt.png) center / cover;
+    display: block;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    opacity: 0.8;
+    filter: blur(1.5px);
+    filter: brightness(150%);
+}
+.grid {
+    height: 600px;
+    width: 1470px;
+    background: #5EBEC4;
+    border: 5px solid #F92C85;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 20px 20px;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    
+}
+.g {
+    border: 2px solid #F92C85;
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+}
+.flex{
+    background: #5EBEC4;
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    padding: 20px; 
+    align-items: center;
+}
+
+.flx{
+    border: 2px solid #F92C85;
+    padding: 10px;
+    margin: 10px;
+}
